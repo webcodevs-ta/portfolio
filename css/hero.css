@@ -1,0 +1,125 @@
+/* ===== hero secction ===== */
+
+/* HERO SECTION */
+.hero {
+  padding: 80px 10%;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* LEFT SIDE */
+.hero-left {
+  flex: 1;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  color: #00ffae;
+  margin-bottom: 10px;
+}
+
+.hero-left h3 {
+  color: #00ffae;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #ccc;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.primary {
+  background: #00ffae;
+  color: #000;
+}
+
+.outline {
+  border: 1px solid #00ffae;
+  background: transparent;
+  color: #00ffae;
+}
+
+/* RIGHT SIDE */
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* IMAGE BOX */
+.image-box img {
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #00ffae;
+  transition: 0.3s;
+  
+  /* ✅ Professional subtle shadow */
+  box-shadow: 0 0 18px rgba(0, 255, 174, 0.3);
+  
+  /* ✅ Slower & smoother animation */
+  animation: glowPulse 1s ease-in-out infinite alternate;
+}
+
+/* Hover */
+.image-box img:hover {
+  transform: scale(1.05);
+}
+
+/* 🔥 Glow Animation (Adjusted only) */
+@keyframes glowPulse {
+  0% {
+    box-shadow: 
+      0 0 12px rgba(0, 255, 174, 0.25),
+      0 0 25px rgba(0, 255, 174, 0.2);
+  }
+  100% {
+    box-shadow: 
+      0 0 22px rgba(0, 255, 174, 0.4),
+      0 0 40px rgba(0, 255, 174, 0.3);
+  }
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column-reverse; /* 🔥 image up, text down */
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+  .hero {
+  padding: 40px 2%;
+}
+  .image-box img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
