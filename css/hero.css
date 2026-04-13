@@ -46,7 +46,7 @@
 }
 
 .btn {
-  padding: 10px 20px;
+  padding: 12px 20px;
   border-radius: 25px;
   border: none;
   cursor: pointer;
@@ -54,15 +54,35 @@
   font-size: 14px;
 }
 
-.primary {
+/* .primary {
   background: #00ffae;
   color: #000;
+} */
+.primary {
+  background: #25D366; /* WhatsApp official color */
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.primary i {
+  font-size: 25px;
+}
+/* Hover effect */
+.primary:hover {
+  background: #1ebe5d;
 }
 
 .outline {
   border: 1px solid #00ffae;
   background: transparent;
   color: #00ffae;
+  font-size: 18px;
 }
 
 /* RIGHT SIDE */
