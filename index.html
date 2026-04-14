@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="css/service.css">
     <link rel="stylesheet" href="css/recentwork.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -140,61 +141,150 @@
             </div>
         </div>
     </section>
-<section class="recent-work">
-  <div class="container">
-    
-    <div class="section-title">
-      <h2>Recent Work</h2>
-      <p>
-        Here’s a selection of my recent WordPress and Shopify projects, built using Elementor Pro, custom page layouts, and, where needed, custom code.
-      </p>
-    </div>
+    <section class="recent-work">
+        <div class="container">
 
-    <div class="grid">
+            <div class="section-title">
+                <h2>Recent Work</h2>
+                <p>
+                    Here’s a selection of my recent WordPress and Shopify projects, built using Elementor Pro, custom
+                    page layouts, and, where needed, custom code.
+                </p>
+            </div>
 
-      <!-- Card 1 -->
-      <div class="card">
-        <div class="img-box">
-          <img src="https://picsum.photos/600/900?random=1" alt="">
+            <div class="grid">
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="img-box">
+                        <img src="https://picsum.photos/600/900?random=1" alt="">
+                    </div>
+                    <h4>WordPress Project</h4>
+                    <h1>Business Website</h1>
+                    <a href="#" class="btn-recent-work">Live View</a>
+                </div>
+
+                <!-- Repeat 9 cards -->
+                <div class="card">
+                    <div class="img-box">
+                        <img src="https://picsum.photos/600/900?random=2" alt="">
+                    </div>
+                    <h4>Shopify Project</h4>
+                    <h1>Ecommerce Store</h1>
+                    <a href="#" class="btn-recent-work">Live View</a>
+                </div>
+
+                <div class="card">
+                    <div class="img-box">
+                        <img src="https://picsum.photos/600/900?random=3" alt="">
+                    </div>
+                    <h4>Landing Page</h4>
+                    <h1>Marketing Site</h1>
+                    <a href="#" class="btn-recent-work">Live View</a>
+                </div>
+
+                <div class="card">
+                    <div class="img-box"><img src="https://picsum.photos/600/900?random=4"></div>
+                    <h4>UI Design</h4>
+                    <h1>Modern UI</h1><a class="btn-recent-work">Live View</a>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="https://picsum.photos/600/900?random=5"></div>
+                    <h4>Shopify Store</h4>
+                    <h1>Fashion Shop</h1><a class="btn-recent-work">Live View</a>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="https://picsum.photos/600/900?random=6"></div>
+                    <h4>Portfolio</h4>
+                    <h1>Personal Brand</h1><a class="btn-recent-work">Live View</a>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="https://picsum.photos/600/900?random=7"></div>
+                    <h4>Agency Site</h4>
+                    <h1>Creative Agency</h1><a class="btn-recent-work">Live View</a>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="https://picsum.photos/600/900?random=8"></div>
+                    <h4>Business Site</h4>
+                    <h1>Corporate</h1><a class="btn-recent-work">Live View</a>
+                </div>
+                <div class="card">
+                    <div class="img-box"><img src="https://picsum.photos/600/900?random=9"></div>
+                    <h4>Landing Page</h4>
+                    <h1>Product Page</h1><a class="btn-recent-work">Live View</a>
+                </div>
+
+            </div>
         </div>
-        <h4>WordPress Project</h4>
-        <h1>Business Website</h1>
-        <a href="#" class="btn-recent-work">Live View</a>
-      </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
 
-      <!-- Repeat 9 cards -->
-      <div class="card">
-        <div class="img-box">
-          <img src="https://picsum.photos/600/900?random=2" alt="">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Have a project idea? Send me a message and let's build something great.</p>
+
+            <div class="contact-wrapper">
+
+                <!-- LEFT SIDE -->
+                <div class="contact-info">
+
+                    <div class="info-card">
+                        <h4>Email</h4>
+                        <p>tahasib981@gmail.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Phone</h4>
+                        <p>+8801853704964</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Location</h4>
+                        <p>Chittagong, Bangladesh</p>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE FORM -->
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/xojyvevr" method="POST">
+
+                        <div class="input-group">
+                            <input type="text" name="name" required>
+                            <label>Your Name</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" name="email" required>
+                            <label>Your Email</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" name="subject" required>
+                            <label>Subject</label>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea name="message" rows="4" required></textarea>
+                            <label>Your Message</label>
+                        </div>
+
+                        <button type="submit" class="btn-contact">Send Message</button>
+
+                    </form>
+                    <p id="successMsg" style="display:none; color:#00ffae; margin-top:10px;">
+                         Message sent successfully! I will replay soon..
+                    </p>
+                </div>
+
+            </div>
         </div>
-        <h4>Shopify Project</h4>
-        <h1>Ecommerce Store</h1>
-        <a href="#" class="btn-recent-work">Live View</a>
-      </div>
-
-      <div class="card">
-        <div class="img-box">
-          <img src="https://picsum.photos/600/900?random=3" alt="">
-        </div>
-        <h4>Landing Page</h4>
-        <h1>Marketing Site</h1>
-        <a href="#" class="btn-recent-work">Live View</a>
-      </div>
-
-      <div class="card"><div class="img-box"><img src="https://picsum.photos/600/900?random=4"></div><h4>UI Design</h4><h1>Modern UI</h1><a class="btn-recent-work">Live View</a></div>
-      <div class="card"><div class="img-box"><img src="https://picsum.photos/600/900?random=5"></div><h4>Shopify Store</h4><h1>Fashion Shop</h1><a class="btn-recent-work">Live View</a></div>
-      <div class="card"><div class="img-box"><img src="https://picsum.photos/600/900?random=6"></div><h4>Portfolio</h4><h1>Personal Brand</h1><a class="btn-recent-work">Live View</a></div>
-      <div class="card"><div class="img-box"><img src="https://picsum.photos/600/900?random=7"></div><h4>Agency Site</h4><h1>Creative Agency</h1><a class="btn-recent-work">Live View</a></div>
-      <div class="card"><div class="img-box"><img src="https://picsum.photos/600/900?random=8"></div><h4>Business Site</h4><h1>Corporate</h1><a class="btn-recent-work">Live View</a></div>
-      <div class="card"><div class="img-box"><img src="https://picsum.photos/600/900?random=9"></div><h4>Landing Page</h4><h1>Product Page</h1><a class="btn-recent-work">Live View</a></div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
 
 
 
+    <script src="contact.js"></script>
     <script src="service.js"></script>
     <script src="script.js"></script>
 </body>

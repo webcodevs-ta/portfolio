@@ -95,7 +95,7 @@
 
 /* IMAGE BOX */
 .image-box {
-  position: relative; /* ✅ IMPORTANT for absolute positioning */
+  position: relative; /*  IMPORTANT for absolute positioning */
 }
 
 .image-box img {
@@ -144,7 +144,7 @@
 
 .stats-box h2 {
   color: #00ffae;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 0;
 }
 
@@ -156,13 +156,13 @@
 
 /* POSITIONING */
 .experience {
-  bottom: -65px;
-  left: 50px;
+  bottom: -50px;
+  left: -30px;
 }
 
 .projects {
-  bottom: 5px;
-  right: -110px;
+  bottom: 3px;
+  right: -20px;
 }
 
 /* FLOAT ANIMATION */
@@ -202,12 +202,12 @@
 
   /* ✅ MOBILE FIX */
   .experience {
-    left: -15px;
-    bottom: -40px;
+    left: -25px;
+    bottom: -30px;
   }
 
   .projects {
-    right: -40px;
-    bottom: 40px;
+    right: -30px;
+    bottom: 30px;
   }
 }
