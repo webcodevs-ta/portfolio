@@ -14,12 +14,16 @@
 }
 
 /* ===== LOGO ===== */
-.logo {
+/* .logo {
     color: #00ffae;
     font-size: 22px;
     font-weight: bold;
+} */
+.logo img {
+    width: 150px; /* need অনুযায়ী change করতে পারো */
+    height: auto;
+    display: block;
 }
-
 /* ===== HAMBURGER ===== */
 .hamburger {
     display: none;
