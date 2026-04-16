@@ -202,13 +202,13 @@
 
   /* ✅ MOBILE FIX */
   .experience {
-    padding: 10px;
+    padding: 5px 10px;
     left: -15px;
     bottom: -30px;
   }
 
   .projects {
-    padding: 10px;
+    padding: 5px 10px;
     right: -10px;
     bottom: 30px;
   }
