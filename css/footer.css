@@ -13,3 +13,17 @@
     color: #aaa;
     letter-spacing: 0.5px;
 }
+
+/* Tablet */
+@media (max-width: 992px) {
+    .footer {
+        padding: 10px 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .footer {
+        padding: 3px 10px;
+    }
+}
